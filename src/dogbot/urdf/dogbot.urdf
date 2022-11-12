@@ -43,7 +43,7 @@
 <link name = "camera_link">
    <visual>
      <material name = "white"/>
-     <origin rpy="0 0 0" xyz="0.45 0 0.75"/>
+     <origin rpy="0 0 0" xyz="0 0 0.75"/>
     <geometry>
      <box size="0.3 0.3 0.1" />
     </geometry>

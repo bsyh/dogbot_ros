@@ -3,7 +3,7 @@
 
 <robot name="dogbot">
 
-
+<!-- pre-defined colors -->
 <material name="tiffany">
     <color rgba="0.039 0.729 0.709 1"/>
   </material>
@@ -18,7 +18,7 @@
   </material>
 
 
-
+    <!-- body part -->
   <link name = "base_link">
    <visual>
     <geometry>
@@ -43,6 +43,7 @@
   </inertial>
    </link>
 
+<!-- camera -->
 <link name = "camera_link">
    <visual>
      <material name = "white_1"/>
@@ -83,6 +84,7 @@
     </actuator>
  </transmission>
 
+<!-- front right -->
   <link name = "front_leg_right">
    <visual>
      <material name = "white"/>
@@ -168,6 +170,7 @@
  </transmission>
 
 
+<!-- front left -->
   <link name = "front_leg_left">
    <visual>
     <geometry>
@@ -254,6 +257,8 @@
  </transmission>
 
 
+<!-- back right -->
+
   <link name = "back_leg_right">
    <visual>
     <geometry>
@@ -339,7 +344,7 @@
     </actuator>
  </transmission>
 
-
+<!-- back left -->
   <link name = "back_leg_left">
    <visual>
     <geometry>

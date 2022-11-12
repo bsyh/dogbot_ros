@@ -11,6 +11,10 @@
                                           joint_b_r_2_position_controller
                                           joint_b_l_1_position_controller
                                           joint_b_l_2_position_controller"/>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+        respawn="false" output="screen">
+        <remap from="/joint_states" to="/dogbot/joint_states" />
+  </node>
 
 </launch>
 

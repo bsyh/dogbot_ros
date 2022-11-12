@@ -2,7 +2,7 @@
   <rosparam file="$(find dogbot)/config/dogbot_control.yaml" command="load"/>
 
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
-        output="screen" ns="/toydog" args="joint_state_controller
+        output="screen" ns="/dogbot" args="joint_state_controller
                                           joint_f_r_1_position_controller
                                           joint_f_r_2_position_controller
                                           joint_f_l_1_position_controller

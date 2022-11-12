@@ -5,6 +5,7 @@
     <arg name="gui" value="true"/>
     <arg name="headless" value="false"/>
     <arg name="debug" value="false"/>
+
   </include>
 
   <param name="robot_description" type="str" textfile="$(find dogbot)/urdf/dogbot.urdf"/>

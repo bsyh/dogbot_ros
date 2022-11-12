@@ -430,7 +430,7 @@
     </actuator>
  </transmission>
 
-
+<!-- -->
 <gazebo>
     <self_collide>1</self_collide>
     <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">

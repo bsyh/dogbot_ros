@@ -1,0 +1,2 @@
+dogbot
+-DCATKIN_DEVEL_PREFIX=/home/vboxuser/sanctuary_demo/devel -DCMAKE_INSTALL_PREFIX=/home/vboxuser/sanctuary_demo/install -G Unix Makefiles

@@ -128,9 +128,9 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/dogbot.cpp
-# )
+add_library(random_op
+  src/plugins/dogbot_random_op.cc
+)
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries

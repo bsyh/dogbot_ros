@@ -44,7 +44,7 @@
    </link>
 
 <!-- camera -->
-
+<xacro:macro name="camera">
 <link name = "camera_link">
    <visual>
      <material name = "white_1"/>
@@ -68,7 +68,6 @@
   </inertial>
    </link>
 <!-- gazebo plugin -->
-<xacro:macro name="camera">
 <gazebo reference="${prefix}_link">
             <material>Gazebo/Black</material>
         </gazebo>

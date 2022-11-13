@@ -129,8 +129,8 @@ include_directories(
 )
 
 ## Declare a C++ library
-add_library(random_op plugins/dogbot_random_op.cc
-)
+# add_library(random_op plugins/dogbot_random_op.cc
+# )
 
 
 
@@ -142,7 +142,7 @@ add_library(random_op plugins/dogbot_random_op.cc
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/dogbot_node.cpp)
+add_executable(random_op plugins/dogbot_random_op.cc)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

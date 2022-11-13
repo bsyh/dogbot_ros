@@ -1,3 +1,4 @@
+
 # dogbot in ROS
 
 A quick project of building a **dog bot** and physical simulation environment in **ROS**.
@@ -24,16 +25,16 @@ The robot description file contains
     roslaunch dogbot dogbot_gazebo.launch word:=willowgarage_world.launcg
   
   launch gazebo for  simulation 
-  [FIgure2]
+![alt text](/doc/WechatIMG38.jpeg)
   
 ### camera raw image simulation
      rosrun rqt_image_view rqt_image_view
-[Figure3]
+![alt text](/doc/WechatIMG39.jpeg)
 
 
 ### joints_state controller
      rosrun rqt_gui rqt_gui
-[Figure4]
+![alt text](/doc/WechatIMG40.jpeg)
 
 ### Architect
 ```mermaid

@@ -1,7 +1,8 @@
 <launch>
 
+  <param name="world_path" type="str" default="empty_world.launch"/>
 
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+  <include file="$(find gazebo_ros)/launch/$(world_path)">
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>

@@ -44,7 +44,7 @@
    </link>
 
 <!-- camera -->
-<xacro:macro name="camera">
+
 <link name = "camera_link">
    <visual>
      <material name = "white_1"/>
@@ -68,6 +68,7 @@
   </inertial>
    </link>
 <!-- gazebo plugin -->
+<xacro:macro name="camera">
 <gazebo reference="${prefix}_link">
             <material>Gazebo/Black</material>
         </gazebo>
@@ -94,7 +95,7 @@
                 </camera>
                 <plugin name="gazebo_camera" filename="libgazebo_ros_camera.so">
                     <alwaysOn>true</alwaysOn>
-                    <updateRate>5</updateRate>
+                    <updateRate>0.0</updateRate>
                     <cameraName>/camera</cameraName>
                     <imageTopicName>image_raw</imageTopicName>
                     <cameraInfoTopicName>camera_info</cameraInfoTopicName>
@@ -108,22 +109,15 @@
                 </plugin>
             </sensor>
         </gazebo>
-</xacro:macro>
+      </xacro:macro>
+
   <joint name="camera_joint" type="fixed">
     <parent link="base_link"/>
     <child link="camera_link"/>
     <origin xyz="0.1 0 0.19"/>
   </joint>
- <transmission name="trans1">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="joint_f_r_1">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor1">
-       <hardwareInterface>EffortJointInterface</hardwareInterface>
-       <mechanismReduction>1</mechanismReduction>
-    </actuator>
- </transmission>
+
+
 
 <!-- front right -->
   <link name = "front_leg_right">

@@ -9,7 +9,8 @@ A quick project of building a **dog bot** and physical simulation environment in
 ### Dogbot mechanical structure 
 
     roslaunch dogbot dogbot_rvis.launch
-[FIgure1] *rivs displays robot TF*
+![alt text](/doc/WechatIMG37.jpeg)
+*rivs displays robot TF*
 The robot description file contains
  - material
  - geometry

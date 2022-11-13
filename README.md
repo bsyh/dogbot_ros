@@ -3,7 +3,7 @@
 
 
 ![physical simulation](/doc/ezgif-5-0ebe57dec0.gif)
-A quick project of building a **dog bot** and physical simulation environment in **ROS**.
+A quick project of building a **dog bot** and **physical simulation environment** in **ROS**.
 ## Dogbot mechanics
 
     roslaunch dogbot dogbot_rvis.launch

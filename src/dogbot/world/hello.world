@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <plugin name="first_world" filename="libfirst_world.so"/>
+  </world>
+</sdf>

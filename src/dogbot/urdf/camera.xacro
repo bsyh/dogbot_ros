@@ -3,28 +3,28 @@
 
     <xacro:macro name="web_camera" params="prefix:=camera">
         <!-- Create laser reference frame -->
-        <link name="${prefix}_link">
-            <inertial>
-                <origin rpy="0 0 0" xyz="0.1 0 0.15"/>
-                <mass value="0.01" />
-                <inertia ixx="0.4" ixy="0.0" ixz="0.0" iyy="0.4" iyz="0.0" izz="0.4" />
-            </inertial>
+        <link name = "camera_link">
+   <visual>
+     <material name = "white_1"/>
+     <origin rpy="0 0 0" xyz="0.1 0 0.15"/>
+    <geometry>
+     <box size="0.3 0.3 0.1" />
+    </geometry>
+    </visual>
 
-            <visual>
-                <material name = "white_1"/>
-                <origin rpy="0 0 0" xyz="0.1 0 0.15"/>
-                <geometry>
-                    <box size="0.3 0.3 0.1" />
-                </geometry>
-             </visual>
+    <collision>
+     <origin rpy="0 0 0" xyz="0.1 0 0.15"/>
+    <geometry>
+     <box size="0.3 0.3 0.1" />
+    </geometry>
+    </collision>
 
-            <collision>
-                <origin rpy="0 0 0" xyz="0.1 0 0.15"/>
-                <geometry>
-                    <box size="0.3 0.3 0.1" />
-                </geometry>
-            </collision>
-        </link>
+    <inertial>
+     <origin rpy="0 0 0" xyz="0.1 0 0.15"/>
+      <mass value="0.01" />
+      <inertia ixx="0.4" ixy="0.0" ixz="0.0" iyy="0.4" iyz="0.0" izz="0.4" />
+  </inertial>
+   </link>
 
         <gazebo reference="${prefix}_link">
             <material>Gazebo/Black</material>

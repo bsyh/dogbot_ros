@@ -3,6 +3,8 @@
 
 
 ![physical simulation](/doc/ezgif-5-0ebe57dec0.gif)
+![physical simulation2](/doc/ezgif-5-da58cfe1e0.gif)
+
 A quick project of building a **dog bot** and **physical simulation environment** in **ROS**.
 ## Dogbot mechanics
 

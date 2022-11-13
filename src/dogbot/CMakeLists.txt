@@ -128,8 +128,7 @@ include_directories(
 )
 
 ## Declare a C++ library
-add_library(random_op
-  /plugins/dogbot_random_op.cc
+add_library(random_op plugins/dogbot_random_op.cc
 )
 
 ## Add cmake target dependencies of the library

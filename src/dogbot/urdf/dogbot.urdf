@@ -14,7 +14,7 @@
     <color rgba="1 1 1 1"/>
   </material>
   <material name="white_1">
-    <color rgba="1 1 1 0"/>
+    <color rgba="1 1 1 0.7"/>
   </material>
 
 

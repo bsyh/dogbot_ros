@@ -44,7 +44,7 @@
    </link>
 
 <!-- camera -->
-
+<xacro:macro name="camera">
 <link name = "camera_link">
    <visual>
      <material name = "white_1"/>
@@ -108,7 +108,7 @@
                 </plugin>
             </sensor>
         </gazebo>
-
+</xacro:macro>
   <joint name="camera_joint" type="fixed">
     <parent link="base_link"/>
     <child link="camera_link"/>

@@ -44,7 +44,7 @@
    </link>
 
 <!-- camera -->
-<xacro:macro name="camera">
+
 <link name = "camera_link">
    <visual>
      <material name = "white_1"/>
@@ -68,6 +68,7 @@
   </inertial>
    </link>
 <!-- gazebo plugin -->
+<xacro:macro name="web_camera">
 <gazebo reference="camera_link">
       <sensor type="camera" name="camera_camera_sensor">
         <update_rate>30.0</update_rate>

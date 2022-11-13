@@ -13,10 +13,7 @@
   </node>
 
   <!-- joint controller with gui for gazebo  -->
-  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui">
-    <param name="rate" value="10" />
-    <remap from="joint_states" to="/dogbot/joint_states" />
-  </node>
+
 
 </launch>
 

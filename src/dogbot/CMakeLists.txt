@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(dogbot)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -10,6 +10,8 @@ project(dogbot)
 find_package(catkin REQUIRED COMPONENTS
   urdf
   xacro
+  roscpp
+  gazebo_ros
 )
 
 ## System dependencies are found with CMake's conventions
@@ -105,7 +107,13 @@ catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES dogbot
 #  CATKIN_DEPENDS urdf xacro
-#  DEPENDS system_lib
+   DEPENDS
+   system_lib
+   urdf
+   xacro
+   roscpp
+   gazebo_ros
+
 )
 
 ###########

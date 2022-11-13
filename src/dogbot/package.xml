@@ -36,8 +36,8 @@
   <!--   Note that this is equivalent to the following: -->
      <build_depend>roscpp</build_depend>
      <build_depend>gazebo_ros</build_depend>
-     <run_depend>roscpp</run_depend>
-     <run_depend>gazebo_ros</run_depend>
+     <exec_depend>roscpp</exec_depend>
+     <exec__depend>gazebo_ros</exec__depend>
   <!--   <exec_depend>roscpp</exec_depend> -->
   <!-- Use build_depend for packages you need at compile time: -->
   <!--   <build_depend>message_generation</build_depend> -->

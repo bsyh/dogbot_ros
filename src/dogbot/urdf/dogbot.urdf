@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 
 
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dogbot">
-<xacro:macro name="dogbot">
+<robot name="dogbot">
 <!-- pre-defined colors -->
 <material name="tiffany">
     <color rgba="0.039 0.729 0.709 1"/>
@@ -464,5 +463,4 @@
       <robotNamespace>/dogbot</robotNamespace>
     </plugin>
 </gazebo>
-</xacro:macro>
 </robot>

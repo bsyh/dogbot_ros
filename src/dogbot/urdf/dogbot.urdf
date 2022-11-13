@@ -3,8 +3,7 @@
 
 <robot name="dogbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<!-- import camera -->
-    <xacro:include filename="$(find dogbot)/urdf/camera.xacro"/>
+
 
 
 <!-- pre-defined colors -->
@@ -72,8 +71,10 @@
   </inertial>
    </link>
 -->
+<!-- import camera -->
+    <xacro:include filename="$(find dogbot)/urdf/camera.xacro"/>
 
-<xacro:web_camera prefix="camera"/>
+    <xacro:web_camera prefix="camera"/>
 
   <joint name="camera_joint" type="fixed">
     <parent link="base_link"/>

@@ -4,7 +4,7 @@
 <robot name="dogbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 
-
+<robot_base/>
 
 <!-- pre-defined colors -->
 <material name="tiffany">

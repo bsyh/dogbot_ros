@@ -5,8 +5,8 @@ A quick project of building a **dog bot** and physical simulation environment in
 
 ## Quick look
 
-[GIF] quick look
 
+![alt text](/doc/ezgif-5-0ebe57dec0.gif)
 ### Dogbot mechanical structure 
 
     roslaunch dogbot dogbot_rvis.launch

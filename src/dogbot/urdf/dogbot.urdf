@@ -73,13 +73,14 @@
    </link>
 -->
 
+<xacro:web_camera prefix="camera"/>
 
   <joint name="camera_joint" type="fixed">
     <parent link="base_link"/>
     <child link="camera_link"/>
     <origin xyz="0.1 0 0.19"/>
   </joint>
-  <xacro:camera prefix="camera"/>
+
 
 
 <!-- front right -->

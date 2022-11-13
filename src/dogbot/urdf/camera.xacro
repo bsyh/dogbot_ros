@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="camera">
 
-    <xacro:macro name="camera_link" params="prefix:=camera">
+    <xacro:macro name="web_camera" params="prefix:=camera">
         <!-- Create laser reference frame -->
         <link name="${prefix}_link">
             <inertial>

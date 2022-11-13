@@ -1,5 +1,5 @@
 #include <functional>
-#include <common/Plugin.hh>
+#include <gazebo/gazebo.hh>
 #include <gazebo/physics/physics.hh>
 #include <gazebo/common/common.hh>
 #include <ignition/math/Vector3.hh>

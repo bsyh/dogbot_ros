@@ -8,10 +8,10 @@ add_compile_options(-std=c++11)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  urdf
-  xacro
-  roscpp
-  gazebo_ros
+  urdf REQUIRED
+  xacro REQUIRED
+  roscpp REQUIRED
+  gazebo_ros REQUIRED
 )
 
 ## System dependencies are found with CMake's conventions

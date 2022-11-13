@@ -25,16 +25,16 @@ The robot description file contains
     roslaunch dogbot dogbot_gazebo.launch word:=willowgarage_world.launcg
   
   launch gazebo for  simulation 
-![alt text](/doc/WechatIMG38.PNG)
+![alt text](/doc/WechatIMG38.png)
   
 ### camera raw image simulation
      rosrun rqt_image_view rqt_image_view
-![alt text](/doc/WechatIMG39.PNG)
+![alt text](/doc/WechatIMG39.png)
 
 
 ### joints_state controller
      rosrun rqt_gui rqt_gui
-![alt text](/doc/WechatIMG40.PNG)
+![alt text](/doc/WechatIMG40.png)
 
 ### Architect
 ```mermaid

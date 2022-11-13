@@ -160,7 +160,7 @@ add_library(random_op SHARED plugins/dogbot_random_op.cc
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(
-   random_op ${GAZEBO_LIBRARIES}
+   random_op ${GAZEBO_libraries}
 )
 
 #############

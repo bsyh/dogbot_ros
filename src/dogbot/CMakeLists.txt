@@ -130,6 +130,7 @@ include_directories(
 ${catkin_INCLUDE_DIRS}
 ${GAZEBO_INCLUDE_DIRS}
 )
+link_directories(${GAZEBO_LIBRARY_DIRS})
 
 ## Declare a C++ library
 add_library(random_op SHARED plugins/dogbot_random_op.cc

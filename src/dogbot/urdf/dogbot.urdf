@@ -102,6 +102,7 @@
                     <distortionT2>0.0</distortionT2>
                 </plugin>
             </sensor>
+    </gazebo>
 
 
   <joint name="camera_joint" type="fixed">

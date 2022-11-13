@@ -1,4 +1,4 @@
-#include <gazebo/gazebo.hh>
+#include <common/Plugin.hh>
 
 namespace gazebo
 {

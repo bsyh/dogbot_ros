@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dogbot">
+<robot name="dogbot">
 
 <!-- pre-defined colors -->
 <material name="tiffany">
@@ -44,7 +44,6 @@
    </link>
 
 <!-- camera -->
-<xacro:macro name="camera">
 <link name = "camera_link">
    <visual>
      <material name = "white_1"/>
@@ -101,7 +100,6 @@
         </plugin>
       </sensor>
     </gazebo>
-      </xacro:macro>
 
   <joint name="camera_joint" type="fixed">
     <parent link="base_link"/>

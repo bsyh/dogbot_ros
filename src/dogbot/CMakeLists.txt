@@ -133,6 +133,7 @@ add_library(random_op plugins/dogbot_random_op.cc
 )
 
 
+
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
@@ -154,9 +155,9 @@ add_library(random_op plugins/dogbot_random_op.cc
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(${PROJECT_NAME}_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(
+   random_op ${GAZEBO_LIBRARIES}
+)
 
 #############
 ## Install ##

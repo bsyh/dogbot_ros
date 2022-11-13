@@ -2,7 +2,7 @@
 
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dogbot">
-
+<xacro:macro name="dogbot">
 <!-- pre-defined colors -->
 <material name="tiffany">
     <color rgba="0.039 0.729 0.709 1"/>
@@ -68,7 +68,6 @@
   </inertial>
    </link>
 <!-- gazebo plugin -->
-<xacro:macro name="web_camera">
 <gazebo reference="camera_link">
       <sensor type="camera" name="camera_camera_sensor">
         <update_rate>30.0</update_rate>
@@ -102,7 +101,7 @@
         </plugin>
       </sensor>
     </gazebo>
-      </xacro:macro>
+
 
   <joint name="camera_joint" type="fixed">
     <parent link="base_link"/>
@@ -465,5 +464,5 @@
       <robotNamespace>/dogbot</robotNamespace>
     </plugin>
 </gazebo>
-
+</xacro:macro>
 </robot>

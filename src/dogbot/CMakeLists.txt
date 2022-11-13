@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   urdf REQUIRED
   xacro REQUIRED
   roscpp REQUIRED
-  gazebo_ros REQUIRED
+  gazebo REQUIRED
 )
 
 

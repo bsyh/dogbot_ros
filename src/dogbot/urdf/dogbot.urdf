@@ -3,6 +3,10 @@
 
 <robot name="dogbot">
 
+<!-- import camera -->
+    <xacro:include filename="$(find dogbot)/urdf/camera.xacro"/>
+
+
 <!-- pre-defined colors -->
 <material name="tiffany">
     <color rgba="0.039 0.729 0.709 1"/>
@@ -44,6 +48,7 @@
    </link>
 
 <!-- camera -->
+<!--
 <link name = "camera_link">
    <visual>
      <material name = "white_1"/>
@@ -66,6 +71,7 @@
       <inertia ixx="0.4" ixy="0.0" ixz="0.0" iyy="0.4" iyz="0.0" izz="0.4" />
   </inertial>
    </link>
+-->
 
 
   <joint name="camera_joint" type="fixed">
@@ -73,16 +79,8 @@
     <child link="camera_link"/>
     <origin xyz="0.1 0 0.19"/>
   </joint>
- <transmission name="trans1">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="joint_f_r_1">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor1">
-       <hardwareInterface>EffortJointInterface</hardwareInterface>
-       <mechanismReduction>1</mechanismReduction>
-    </actuator>
- </transmission>
+  <xacro:camera prefix="camera"/>
+
 
 <!-- front right -->
   <link name = "front_leg_right">

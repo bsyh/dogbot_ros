@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 
-<robot name="dogbot">
+<robot name="dogbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <!-- import camera -->
     <xacro:include filename="$(find dogbot)/urdf/camera.xacro"/>

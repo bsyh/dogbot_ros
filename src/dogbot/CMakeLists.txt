@@ -14,6 +14,10 @@ find_package(catkin REQUIRED COMPONENTS
   gazebo REQUIRED
 )
 
+
+
+include_directories(${GAZEBO_INCLUDE_DIRS})
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 

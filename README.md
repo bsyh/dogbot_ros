@@ -19,18 +19,20 @@ The robot description file contains
  - **camera**
  ## physical simulation
 
-    roslaunch dogbot dogbot_gazebo.launch word:=willowgarage_world.launcg
+    roslaunch dogbot dogbot_gazebo.launch word:=willowgarage_world.launch
   
-  launch gazebo for  simulation 
+launch gazebo for simulation 
 ![alt text](/doc/WechatIMG38.png)
   
 ## Camera raw image simulation
      rosrun rqt_image_view rqt_image_view
+simulate camera data installed under dog head
 ![alt text](/doc/WechatIMG39.png)
 
 
 ## Joints_state controller
      rosrun rqt_gui rqt_gui
+create a node to control joints of the dog 
 ![alt text](/doc/WechatIMG40.png)
 
 ## Architect

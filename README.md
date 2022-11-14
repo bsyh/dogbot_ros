@@ -59,7 +59,7 @@ Z[Gazebo_gui simulator]
 
 X[Plugin/external controller] --  topic:joint_state --> B
 H[rqt_gui] -- topic:joint_state -->B((Robot_controller)) --URDF-->F{Dogbot}
-A[rqt_image_view] -- topic:camera_raw --> F
+A[rqt_image_view] -- topic:camera/image_raw --> F
 ```
 ## Usage
 

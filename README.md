@@ -45,9 +45,9 @@ create a node to control joints of the dog
 ## Architect
 ```mermaid
 graph LR
-Z[Gazebo_gui simulator]
-
 R[rvis] --"auto-generate transfer(TF) using URDF"--> V{Dogbot}
+
+Z[Gazebo_gui simulator]
 
 X[Plugin/external controller] --  topic:joint_state --> B
 H[rqt_gui] -- topic:joint_state -->B((Robot_controller)) --URDF-->F{Dogbot}

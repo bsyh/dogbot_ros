@@ -15,7 +15,7 @@ The robot description file contains
  - **material**
  - **geometry**
  - **collision box**
- - **inertial and msss**
+ - **inertia and mass**
  - **joints/transfer**
  - **actuators/fake Hardware Interface**
  - **camera**

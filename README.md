@@ -10,7 +10,7 @@ A quick project of building a **dog bot** and **physical simulation environment*
 
     roslaunch dogbot dogbot_rvis.launch
     
-![node joints test](/doc/ezgif-2-0c053020dd.mp4)
+![node joints test](/doc/ezgif-2-4d830865b7.gif)
 
 ![rivs displays robot TF](/doc/WechatIMG37.jpeg)
 *rivs displays robot TF*<br/>

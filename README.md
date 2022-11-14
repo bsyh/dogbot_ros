@@ -9,6 +9,9 @@ A quick project of building a **dog bot** and **physical simulation environment*
 ## Dogbot mechanics
 
     roslaunch dogbot dogbot_rvis.launch
+    
+![rivs displays robot TF](/doc/ezgif-2-0c053020dd.mov)
+
 ![rivs displays robot TF](/doc/WechatIMG37.jpeg)
 *rivs displays robot TF*<br/>
 The robot description file contains

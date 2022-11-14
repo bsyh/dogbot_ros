@@ -42,7 +42,7 @@ create a node to control joints of the dog
 graph LR
 Z[Gazebo_gui simulator]
 X[Plugin/external controller] --  topic:joint_state --> B
-A[rgt_gui] -- topic:joint_state -->B((Robot_controller)) -->F{Dogbot}
+H[rgt_gui] -- topic:joint_state -->B((Robot_controller)) -->F{Dogbot}
 A[rgt_image_view] -- topic:camera_raw --> F
 ```
 ## Usage

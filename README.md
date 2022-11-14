@@ -12,8 +12,6 @@ A quick project of building a **dog bot** and **physical simulation environment*
     
 ![node joints test](/doc/ezgif-2-4d830865b7.gif)
 
-![rivs displays robot TF](/doc/WechatIMG37.jpeg)
-*rivs displays robot TF*<br/>
 The robot description file contains
  - **material**
  - **geometry**
@@ -22,6 +20,10 @@ The robot description file contains
  - **joints/transfer**
  - **actuators/fake Hardware Interface**
  - **camera**
+ - 
+![rivs displays robot TF](/doc/WechatIMG37.jpeg)
+*rivs displays robot TF*<br/>
+
  ## physical simulation
 
     roslaunch dogbot dogbot_gazebo.launch word:=willowgarage_world.launch

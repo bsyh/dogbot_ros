@@ -20,7 +20,7 @@ The robot description file contains
  - **joints/transfer**
  - **actuators/fake Hardware Interface**
  - **camera**
- - 
+ 
 ![rivs displays robot TF](/doc/WechatIMG37.jpeg)
 *rivs displays robot TF*<br/>
 

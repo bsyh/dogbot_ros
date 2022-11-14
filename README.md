@@ -38,6 +38,12 @@ simulate camera data installed under dog head
 
 
 ## Joints_state controller
+to open a node for joint control
+```
+roslaunch dogbot dogbot_controller.launch
+```
+
+to publish commands for the joint_state topic
      rosrun rqt_gui rqt_gui
 create a node to control joints of the dog 
 ![alt text](/doc/WechatIMG40.png)

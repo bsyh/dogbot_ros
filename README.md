@@ -10,7 +10,7 @@ A quick project of building a **dog bot** and **physical simulation environment*
 
     roslaunch dogbot dogbot_rvis.launch
 ![rivs displays robot TF](/doc/WechatIMG37.jpeg)
-*rivs displays robot TF*
+*rivs displays robot TF*<br/>
 The robot description file contains
  - **material**
  - **geometry**

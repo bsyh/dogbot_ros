@@ -19,9 +19,8 @@ The robot description file contains
  - **actuators/fake Hardware Interface**
  - **camera**
  
- 
     roslaunch dogbot dogbot_rvis.launch
-    
+  
 ![rivs displays robot TF](/doc/WechatIMG37.jpeg)
 *rivs displays robot TF*<br/>
 

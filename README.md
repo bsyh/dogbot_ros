@@ -47,10 +47,10 @@ create a node to control joints of the dog
 graph LR
 Z[Gazebo_gui simulator]
 
-R[rvis] --auto generate TF--> V{Dogbot}
+R[rvis] --auto-generate TF using URDF--> V{Dogbot}
 
 X[Plugin/external controller] --  topic:joint_state --> B
-H[rqt_gui] -- topic:joint_state -->B((Robot_controller)) -->F{Dogbot}
+H[rqt_gui] -- topic:joint_state -->B((Robot_controller)) --URDF-->F{Dogbot}
 A[rqt_image_view] -- topic:camera_raw --> F
 ```
 ## Usage

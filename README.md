@@ -44,7 +44,9 @@ roslaunch dogbot dogbot_controller.launch
 ```
 
 to publish commands for the joint_state topic
-     rosrun rqt_gui rqt_gui
+```
+rosrun rqt_gui rqt_gui
+```
 create a node to control joints of the dog 
 ![alt text](/doc/WechatIMG40.png)
 

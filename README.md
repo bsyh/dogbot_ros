@@ -8,8 +8,6 @@
 A quick project of building a **dog bot** and **physical simulation environment** in **ROS**.
 ## Dogbot mechanics
 
-    roslaunch dogbot dogbot_rvis.launch
-    
 ![node joints test](/doc/ezgif-2-4d830865b7.gif)
 
 The robot description file contains
@@ -21,6 +19,9 @@ The robot description file contains
  - **actuators/fake Hardware Interface**
  - **camera**
  
+ 
+    roslaunch dogbot dogbot_rvis.launch
+    
 ![rivs displays robot TF](/doc/WechatIMG37.jpeg)
 *rivs displays robot TF*<br/>
 

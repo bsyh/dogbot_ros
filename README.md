@@ -73,3 +73,4 @@ A[rqt_image_view] -- topic:camera/image_raw --> F
  3.  `catkin_make` to cmake in the project directory
  4. >if catkin_make can't locate you gazebo_ros config, try add prefix "PKG_CONFIG_PATH=$(rospack find gazebo_ros)/cmake cmake .." at the dogbot directory.
  5. run above commands
+# dogbot_ros
